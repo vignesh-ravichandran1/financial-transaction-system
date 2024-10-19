@@ -1,7 +1,7 @@
 # Compiled class file
 *.class
 
-# Log file
+# Log files
 *.log
 
 # BlueJ files
@@ -19,6 +19,33 @@
 *.tar.gz
 *.rar
 
-# virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
+# virtual machine crash logs
 hs_err_pid*
-replay_pid*
+
+# IDE-specific files
+.idea/
+*.iml
+.vscode/
+
+# Maven
+target/
+pom.xml.tag
+pom.xml.releaseBackup
+pom.xml.versionsBackup
+pom.xml.next
+release.properties
+
+# Gradle
+.gradle/
+build/
+
+# Node
+node_modules/
+
+# OS-specific
+.DS_Store
+Thumbs.db
+
+# Application-specific
+*.env
+*.pem
